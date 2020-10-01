@@ -6,7 +6,7 @@ body {
 
 .container {
 	position: absolute;
-
+	font-family: 'Fredoka One', cursive;
 	top:50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -18,20 +18,20 @@ body {
 	top: 70px;
 	font-size: 25px;
 	color: #15f4ee;
-	font-family: Comic Sans MS;
+	font-family: 'Fredoka One', cursive;
 	font-weight: 100;
 	border: 2px solid #15f4ee;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	cursor: pointer;
 	border-radius: 50px;
-    transition: 0.5s;
+        transition: 0.5s;
 }
 
 .button:hover {
 	box-shadow: 0 5px 25px 0 #15f4ee inset, 0 5px 25px 0 #15f4ee,
                 0 5px 25px 0 #15f4ee inset, 0 5px 25px 0 #15f4ee;
-    text-shadow: 0 0 5px #15f4ee 0 0 5px #15f4ee;	
+        text-shadow: 0 0 5px #15f4ee 0 0 5px #15f4ee;	
 }
 
 td {
@@ -40,7 +40,7 @@ td {
 	width:  200px;/*100px*/
 	text-align:  center;
 	vertical-align:  middle;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Fredoka One', cursive;
 	font-size:  100px;
 	cursor: pointer;
 }
@@ -84,17 +84,17 @@ table tr td:last-child {
   border-radius: 5px;
   color: white;
   font-size: 2em;
-  font-family: "Comic Sans MS";
+  font-family: 'Fredoka One', cursive;
 }
 
 .footer {
 	position: fixed;
 	padding:10px 10px 0px 10px;
 	background-color: #808080;
-	font-family: Comic Sans MS;
+	font-family: 'Fredoka One', cursive;
 	color: white;
 	/*margin-top: 50px;*/
 	width: 100%; 
-    bottom: 0;
+        bottom: 0;
 	text-align: center;
 }

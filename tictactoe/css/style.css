@@ -30,7 +30,7 @@ body {
 
 .button:hover {
 	box-shadow: 0 5px 25px 0 #15f4ee inset, 0 5px 25px 0 #15f4ee,
-                0 5px 25px 0 #15f4ee inset, 0 5px 25px 0 #15f4ee;
+                    0 5px 25px 0 #15f4ee inset, 0 5px 25px 0 #15f4ee;
         text-shadow: 0 0 5px #15f4ee 0 0 5px #15f4ee;	
 }
 

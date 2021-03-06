@@ -88,13 +88,11 @@ table tr td:last-child {
 }
 
 .footer {
-	position: fixed;
 	padding:10px 10px 0px 10px;
 	background-color: #808080;
 	font-family: 'Fredoka One', cursive;
 	color: white;
 	/*margin-top: 50px;*/
 	width: 100%; 
-        bottom: 0;
 	text-align: center;
 }

@@ -9,7 +9,7 @@ body {
 
 h1{
 	font-family: 'Fredoka one', cursive;
-	font-size: 70px;
+	font-size: 60px;
 	font-weight: 400;
 	text-align: center;
 	color: #ffffff;
@@ -113,6 +113,47 @@ footer {
 @media screen and (max-width:600px) {
 	table{
 		width:90%;
-		margin-left: 5%;
+		margin-left: 2%;
+		height:20%;
+		margin-right: 0%;
+	}
+h1{
+	font-size: 40px;
+}
+td{
+	height: 70px;
+	font-size: 40px;
+}
+.endgame{
+	display: none;
+  width: 200px;
+  top: 150px;/*120px*/
+  
+  position: absolute;
+  left: 50%;
+  margin-left: -37%;/*-100px*/
+  padding-top: 0%;/*50px*/
+  padding-bottom: 50px;/*150px*/
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  height:100px;
+}
+footer{
+	font-size: 10px;
+}
+.button { 
+	margin-top: 0%;
+	margin-left:-60%;
+	padding: 5px;
+	top: 0px;
+	font-size: 15px;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	cursor: pointer;
+	border-radius: 50px;
+    transition: 0.5s;
+	width:100%;
 }
 }

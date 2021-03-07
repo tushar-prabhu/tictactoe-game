@@ -141,6 +141,8 @@ td{
 }
 footer{
 	font-size: 10px;
+	position:absolute;
+	bottom: 0%;
 }
 .button { 
 	margin-top: 0%;
@@ -155,5 +157,9 @@ footer{
 	border-radius: 50px;
     transition: 0.5s;
 	width:100%;
+}
+body{
+	position: relative;
+	min-height: 100vh;
 }
 }

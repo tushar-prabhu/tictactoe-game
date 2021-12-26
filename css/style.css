@@ -70,9 +70,10 @@ td {
   width: 150px;
   text-align: center;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
-  color: #14004d;
+  color: #00006b;
+  font-weight: bold;
 }
 
 table {
@@ -83,6 +84,7 @@ table {
   margin: auto;
   background-color: #ffffff5d;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 25px;
 }
 
@@ -117,6 +119,7 @@ table tr td:last-child {
   justify-content: center;
   background-color: rgba(46, 37, 37, 0.452);
   backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   position: absolute;
   /*left: 50%;
   margin-left: -160px;-100px*/

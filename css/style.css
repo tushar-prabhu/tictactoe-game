@@ -6,6 +6,16 @@ body {
 	background-image: url("../assets/hollowed-boxes.svg");
 }	
 
+ #snow {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	pointer-events: none;
+ 	z-index: 1000;
+ }
+
 .text{
 	display: flex;
 	align-items:flex-start;
